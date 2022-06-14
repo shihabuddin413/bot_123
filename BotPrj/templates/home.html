@@ -1,0 +1,13 @@
+{% extends 'base.html' %} 
+{% block content %}
+
+<h1>Hello {{ name }}</h1>
+
+<form action="add">
+  <div>Enter Calculation : <input type="text" name="calcExp" /></div>
+  <div>
+    <button type="submit">Get Result</button>
+  </div>
+</form>
+
+{% endblock content %}
